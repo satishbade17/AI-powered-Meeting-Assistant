@@ -329,7 +329,7 @@ For English:
 Audio → Whisper → Transcript
 ```
 
-For Hinglish:
+For Hindi:
 
 ```text
 Audio
