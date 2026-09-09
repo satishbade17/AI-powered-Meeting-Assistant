@@ -79,7 +79,7 @@ The application can transcribe conversations, generate a meeting title and summa
                 ▼                         ▼
         ┌──────────────┐          ┌──────────────┐
         │    Whisper   │          │   Sarvam AI  │
-        │    English   │          │   Hinglish   │
+        │    English   │          │    Hindi     │
         └──────┬───────┘          └──────┬───────┘
                │                         │
                └────────────┬────────────┘
@@ -142,7 +142,7 @@ The application can transcribe conversations, generate a meeting title and summa
 | FFmpeg | Audio/video conversion |
 | Pydub | Audio processing and chunking |
 | OpenAI Whisper | Local English speech-to-text |
-| Sarvam AI | Hinglish speech-to-text/translation |
+| Sarvam AI | Hindi speech-to-text/translation |
 | Groq | LLM inference |
 | LangChain | LLM chains and RAG workflow |
 | Hugging Face | Transcript embeddings |
@@ -479,7 +479,7 @@ Uses:
 OpenAI Whisper
 ```
 
-### Hinglish
+### Hindi
 
 Uses:
 
@@ -601,7 +601,7 @@ Check:
 SARVAM_API_KEY=your_key
 ```
 
-Also make sure the selected language is `hinglish`.
+Also make sure the selected language is `hindi`.
 
 ### CPU Whisper warning
 
@@ -637,7 +637,7 @@ Input
  ┌──────┴───────┐
  │              │
 Whisper       Sarvam
-English       Hinglish
+English       Hindi
  │              │
  └──────┬───────┘
         ▼
